@@ -27,8 +27,5 @@ describe("generateLocationMessage", () => {
 		expect(location.createdAt).toBeA("number");
 		expect(location).toInclude({from, url});
 
-		// from is correct
-		// created at is number
-		// url on oikea, testaa laittamalla linkkiin numerot
 	});
 });
